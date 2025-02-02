@@ -16,3 +16,29 @@ img:hover{
     cursor: pointer;
 
 }
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    margin: 24px;
+    gap: 16px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+}
+button{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4E75FF;
+    width: 95px;
+}
+button:hover{
+    background: #6C8CFF;
+}
+

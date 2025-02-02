@@ -1,4 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const spisok = document.querySelector('.gallery')
 const images = [
